@@ -11,7 +11,7 @@ const expenses = [
   return (
     <div>
       <h2>Let's get started!</h2>
-      <Expenses expenses={expenses}/>
+      <Expenses items={expenses}/>
       {/* <ExpenseItem 
         title={expenses[0].title} 
         price={expenses[0].price} 
