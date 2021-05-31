@@ -12,8 +12,7 @@ const Expenses = (props) =>{
         setFilteredYear(selectedYear);
     }
 
-    return(
-        
+    return(        
         <Card className="expenses">
             <ExpensesFilter selected={filteredYear} onGetFilter={getFilterData} />
             <ExpenseItem title={props.items[0].title} price={props.items[0].price} date={props.items[0].date}/>
