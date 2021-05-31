@@ -10,8 +10,9 @@ function ExpenseItem(data) {
   const clickHandler = () => {
     setTitle('Updated title!');
   }
+ 
 
-  return (
+  return (    
     <Card className="expense-item">
       <ExpenseDate date={data.date}/>
       <div className="expense-item__description">
