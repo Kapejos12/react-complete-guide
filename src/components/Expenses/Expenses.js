@@ -10,9 +10,6 @@ const Expenses = (props) =>{
 
     const getFilterData = (selectedYear) =>{
         setFilteredYear(selectedYear);
-
-        // console.log('From Expenses.js')
-        // console.log(selectedYear);
     }
 
     return(
